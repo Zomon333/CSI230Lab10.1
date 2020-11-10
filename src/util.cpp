@@ -13,6 +13,7 @@
 */
 using namespace std;
 
+//Returns a random element of the given string vector
 string randomElement(vector<string> input)
 {
     cout<<"calling randomElement\n";
@@ -23,6 +24,7 @@ string randomElement(vector<string> input)
     return input[index];
 }
 
+//Returns the sum of the given double vector
 double sum(vector<double> input)
 {
     int i = 0;
@@ -35,11 +37,13 @@ double sum(vector<double> input)
     return sum;
 }
 
+//Returns the average of the given double vector
 double avg(vector<double> input)
 {
    return (sum(input)/input.size());
 }
 
+//Returns the lowest value of the given double vector
 double lowest(vector<double> input)
 {
     int i = 0;
@@ -55,6 +59,7 @@ double lowest(vector<double> input)
     return lowest;
 }
 
+//Converts a string's casing to camelCase
 string camelCase(string &input)
 {
     int i = 0;
