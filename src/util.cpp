@@ -55,7 +55,7 @@ double lowest(vector<double> input)
     return lowest;
 }
 
-string camelCase(string input)
+string camelCase(string &input)
 {
     int i = 0;
     string toReturn="";
