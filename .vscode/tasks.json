@@ -1,0 +1,16 @@
+{
+
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C++ Make File",
+            "type": "shell",
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
